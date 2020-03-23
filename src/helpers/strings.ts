@@ -254,6 +254,30 @@ Not: Bu bota yardım etmek istiyorsanız, lüten [GitHub Sponsors programına bu
 ¿Sigues con preguntas? Comprueba el canal de soporte — @borodutch\\_support. El código de Shieldy es código libre y puede ser encontrado [aquí](https://github.com/backmeupplz/shieldy). ¡Gracias!
 
 P.S., if you want to help this bot, please, donate through the [GitHub Sponsors program here](https://github.com/sponsors/backmeupplz).`,
+    gl: `Shieldy — é a mellor solución en Telegram para loitar contra os molestos spammers. O que fai é pedirlle a cada persoa recén chegada facer unha serie de accións nun tempo determinado, se non as fai é expulsada. Así de sinxelo. Asegúrate de que @shieldy\\_bot figura como administrador no chat e listo! Tamén podes personalizar máis o seu comportamento cos seguintes comandos:
+
+/help — mostra esta mensaxe
+/language — cambia a lingua
+/captcha — cambia o tipo de filtro captcha empregado
+/timeLimit — cambia a cantidade de tempo para resolver o filtro captcha
+/lock — fai que estes comandos só sexan accesibles aos administradores
+/restrict — restrinxe ás persoas recén chegadas a enviar só mensaxes de texto nas primeiras 24 horas
+/deleteEntryMessages — borra as mensaxes sobre a entrada de usuarios
+/greeting — saúda ás mensaxes que pasan o filtro
+/trust — reply with this command to a message sent by user that you don't want to check
+/ban — same as trust, but the opposite
+/strict — use when you don't want to receive any newcomers' messages but captcha solutions until they pass captcha
+/customCaptchaMessage — setup custom captcha message
+/deleteGreetingTime — setup when to delete Shieldy's greeting in seconds like \`/deleteGreetingTime 100\`, reset by setting it to 0
+/banUsers — whether to ban or to kick users
+/deleteEntryOnKick — whether to delete entry messages for users who failed captcha
+/cas — whether to use Combot Anti-Spam or not
+/underAttack — toggle the mode to automatically kick all newcomers
+/noChannelLinks — automatically delete messages that link to other telegram channels
+
+¿Sigues con preguntas? Comprueba el canal de soporte — @borodutch\\_support. El código de Shieldy es código libre y puede ser encontrado [aquí](https://github.com/backmeupplz/shieldy). ¡Gracias!
+
+P.S., if you want to help this bot, please, donate through the [GitHub Sponsors program here](https://github.com/sponsors/backmeupplz).`,
     zh: `Shieldy — 是电报中打击恼人的垃圾信息发送者的最佳解决方案，它要求新手在一段时间内执行一个集合动作，否则就会踢它们，就这么简单。确保 @shieldy\\_bot是您的管理员，并且这就可以了！您还可以使用以下命令进一步设置课程：
 
 /help — 显示此消息
@@ -624,6 +648,7 @@ P.S., if you want to help this bot, please, donate through the [GitHub Sponsors 
     br: 'Por favor, selecione uma língua.',
     tr: 'Lütfen dil seçimi yapın.',
     es: 'Por favor, selecciona el idioma.',
+    gl: 'Por favor, selecciona a lingua.',
     zh: '请选择一种语言。',
     no: 'Vennligst velg et språk.',
     de: 'Bitte wähle eine Sprache.',
@@ -650,6 +675,7 @@ P.S., if you want to help this bot, please, donate through the [GitHub Sponsors 
     br: 'Boa, Agora eu falo português.',
     tr: 'Harika, artık Türkçe konuşuyorum.',
     es: 'Genial, ahora hablo español.',
+    gl: 'Moi ben, agora falo galego.',
     zh: '很棒，现在我讲中文了。',
     no: 'Supert, nå snakker jeg norsk.',
     de: 'Großartig, ich spreche nun deutsch.',
@@ -677,6 +703,7 @@ P.S., if you want to help this bot, please, donate through the [GitHub Sponsors 
     br: 'Apenas a pessoa que iniciou o menu pode selecionar as opções.',
     tr: 'Yalnızca menüyü başlatan kişi seçenekleri seçebilir.',
     es: 'Solo la persona que inició el menú puede seleccionar las opciones.',
+    gl: 'Só a persoa que iniciou o menú pode seleccionar as opcións.',
     zh: '只有启动菜单的人才能选择。',
     no: 'Bare personen som åpnet menyen kan svare på den.',
     de:
@@ -757,6 +784,12 @@ P.S., if you want to help this bot, please, donate through the [GitHub Sponsors 
 • Botón — el bot pedirá presionar un botón
 • Digitos — el bot pedirá resolver una ecuación simple
 • Image — bot will ask to recognize characters on an image`,
+    gl: `Por favor, escolle o tipo de proba para verificar ás persoas recén chegadas:
+
+• Simple — o bot pedirá enviar o que sexa polo chat
+• Botón — o bot pedirá presionar un botón
+• Dixitos — o bot pedirá resolver unha ecuación simple
+• Imaxe — o bot pedirá recoñecer letras e/ou números nunha imaxe`,
     zh: `请为新人选择测试类型：
 
 •简单 — 机器人会要求向聊天发送任何内容
@@ -859,6 +892,7 @@ Vyberte prosím typ testu pro nováčky:
     br: 'Simples',
     tr: 'Basit',
     es: 'Simple',
+    gl: 'Simple',
     zh: '简单',
     no: 'Enkel',
     de: 'Simpel',
@@ -884,6 +918,7 @@ Vyberte prosím typ testu pro nováčky:
     br: 'Digitos',
     tr: 'Rakamlar',
     es: 'Digitos',
+    gl: 'Díxitos',
     zh: '数字',
     no: 'Tall',
     de: 'Zahlen',
@@ -909,6 +944,7 @@ Vyberte prosím typ testu pro nováčky:
     br: 'Botão',
     tr: 'Düğme',
     es: 'Botón',
+    gl: 'Botón',
     zh: '按钮',
     no: 'Knapp',
     de: 'Knopf',
@@ -934,6 +970,7 @@ Vyberte prosím typ testu pro nováčky:
     br: 'Image',
     tr: 'Resim',
     es: 'Image',
+    gl: 'Imaxe',
     zh: 'Image',
     no: 'Image',
     de: 'Bild',
@@ -960,6 +997,7 @@ Vyberte prosím typ testu pro nováčky:
     br: 'Boa, Eu irei usar esse tipo de teste agora.',
     tr: 'Harika, o zaman bu tür bir test uygulayacağım.',
     es: 'Genial, usaré este tipo de test.',
+    gl: 'De acordo, empregarei ese tipo de test.',
     zh: '很棒，我之后会使用这个类型的测试',
     no: 'Supert, da vil jeg bruke denne type testen.',
     de: 'Großartig, ich werde diese Art des Tests nutzen.',
@@ -995,6 +1033,8 @@ Vyberte prosím typ testu pro nováčky:
       'Lütfen, yeni gelenlerin kovulmadan önce testi tamamlaması gereken saniyeyi seçin.',
     es:
       'Por favor, seleccione cuántos segundos tendrán los recién llegados para completar el test antes de la expulsión.',
+    gl:
+      'Por favor, seleccione cantos segundos terán as persoas recén chegadas para completar o test antes da expulsión.',      
     zh: '请选择新人在被踢除前完成测试的秒数。',
     no:
       'Vennligst velg hvor mange sekunder nykommere vil ha på å fullføre testen før brukeren blir sparket.',
@@ -1030,6 +1070,7 @@ Vyberte prosím typ testu pro nováčky:
     br: 'Boa, Eu irei usar esse tempo limite agora.',
     tr: 'Harika, o zaman bu süreyi kullanacağım.',
     es: 'Genial, usaré este límite de tiempo.',
+    gl: 'De acordo, usarei ese límite de tempo.',
     zh: '很棒，我之后会使用这个时间限制。',
     no: 'Supert, da skal jeg bruke denne tidsbegrensningen.',
     de: 'Toll, ich benutzte dann dieses Zeit Limit.',
@@ -1056,6 +1097,7 @@ Vyberte prosím typ testu pro nováčky:
     br: 'sec',
     tr: 'san',
     es: 'seg',
+    gl: 'seg',
     zh: '秒',
     no: 'sek',
     de: 'sek',
@@ -1082,6 +1124,8 @@ Vyberte prosím typ testu pro nováčky:
     br: 'Boa! Agora só obedecerei os ADMs.',
     es:
       '¡Genial! Ahora solo reaccionaré a los comandos enviados por administradores.',
+    gl:
+      'Moi ben, agora só reaccionarei aos comandos enviados por administradores.',
     tr:
       'Harika! Şimdi sadece yöneticiler tarafından gönderilen komutlara tepki vereceğim.',
     zh: '很棒！现在我只对管理员发送的命令作出反应。',
@@ -1111,6 +1155,7 @@ Vyberte prosím typ testu pro nováčky:
     br: 'Boa! Agora obedecerei a qualquer pessoa.',
     tr: 'Harika! Şimdi herkes tarafından gönderilen komutlara tepki vereceğim.',
     es: '¡Genial! Ahora reaccionaré a los comandos enviador por todo el mundo.',
+    gl: 'Vale, entón agora reaccionarei aos comandos enviados por todo o mundo.',
     zh: '很棒！现在我对所有人发出的命令做出反应。',
     no: 'Supert! Nå vil jeg svare på kommandoer gitt av hvem som helst.',
     de:
@@ -1145,6 +1190,8 @@ Vyberte prosím typ testu pro nováčky:
       "Great! Now newcomers won't send anything but captcha solutions until they pass captcha.",
     es:
       "Great! Now newcomers won't send anything but captcha solutions until they pass captcha.",
+    gl:
+      "De acordo! Agora as persoas recén chegadas só poderán enviar solución á petición captcha ata que pasen o filtro.",
     tr:
       "Harika! Artık yeni gelenler, CAPTCHA'yı geçinceye kadar CAPTCHA çözümlerinden başka bir şey gönderemeyecekler.",
     zh:
@@ -1191,6 +1238,8 @@ Vyberte prosím typ testu pro nováčky:
       'Harika! Artık yeni gelenler, CAPTCHA testini geçmeden önce metin gönderebilecekler.',
     es:
       'Great! Now newcomers will be able to send text before they pass captcha.',
+    gl:
+      'Vale, entón agora as persoas recén chegadas poderán enviar mensaxes mentres non pasan o filtro captcha.',
     zh: '很棒！现在，新手可以在通过验证码之前发送文本消息。',
     no: 'Supert! Nå kan nykommere sende meldinger før de har bestått testen.',
     de:
@@ -1234,6 +1283,8 @@ Vyberte prosím typ testu pro nováčky:
       ', Lütfen, belirtilen süre içerisinde bu gruba herhangi bir mesaj gönderin, aksi takdirde kovulursunuz. Teşekkür ederiz!',
     es:
       ', por favor, envía cualquier mensaje por este grupo dentro del tiempo especificado, si no, serás expulsado. ¡Gracias!',
+    gl:
+      ', por favor, envía calquera mensaxe por este grupo dentro do tempo especificado. Se non o fas botarásete do grupo. Grazas!',
     zh: '，请在指定的时间内向该群组发送任何消息，否则您将被踢。谢谢！',
     no:
       ', vennligst send hvilken som helst melding til denne gruppen innen den spesifiserte tidsperioden, hvis ikke blir du sparket. Takk!',
@@ -1281,6 +1332,8 @@ Vyberte prosím typ testu pro nováčky:
       ', Lütfen, sağlanan aritmetik işlem çözümünü belirtilen süre içerisinde bu gruba gönderin, aksi takdirde kovulacaksınız. Teşekkür ederiz!',
     es:
       ', por favor, envíe por este grupo la solución a la ecuación matemática proporcionada dentro del tiempo especificado, si no, serás expulsado. ¡Gracias!',
+    gl:
+      ', por favor, envía por este grupo a solución á ecuación matemática mostrada dentro do tempo especificado. Se non o fas botarásete do grupo. Grazas!',
     zh: '，请在指定的时间内将数学计算答案发送到本群组，否则您将被踢。 谢谢！',
     no:
       ', vennligst send svaret på matteproblemet innen den spesifiserte tidsperioden, hvis ikke blir du sparket. Takk!',
@@ -1328,6 +1381,8 @@ please, send the solution to the arithmetic operation provided within the time a
       ', Lütfen, belirtilen süre içinde aşağıdaki düğmeye basın, aksi takdirde kovulacaksınız. Teşekkür ederiz!',
     es:
       ', por favor, presione el botón abajo dentro del tiempo especificado, si no, serás expulsado. ¡Gracias!',
+    gl:
+      ', por favor, preme o botón de abaixo dentro do tempo especificado. Se non o fas botarásete do grupo. Grazas!',
     zh: '，请在指定的时间内按下面的按钮，否则你将被踢。谢谢！',
     no:
       'vennligst trykk knappen nedenfor innen den spesifiserte tidsperioden, hvis ikke blir du sparket. Takk!',
@@ -1374,6 +1429,8 @@ Prosím, stiskni tlačítko ve stanoveném čase, jinak budeš vyhozen. Děkuji!
       ', Lütfen, bu gruba belirtilen süre içerisinde gösterilen karakterleri gönderin, aksi takdirde kovulacaksınız. Teşekkür ederiz!',
     es:
       ', please, send the characters displayed within the time amount specified to this group, otherwise you will be kicked. Thank you!',
+    gl:
+      ', por favor, teclea e envía os caracteres mostrados dentro do tempo especificado. Se non o fas botarásete do grupo. Grazas!',
     zh:
       ', please, send the characters displayed within the time amount specified to this group, otherwise you will be kicked. Thank you!',
     no:
@@ -1411,6 +1468,7 @@ Prosím, stiskni tlačítko ve stanoveném čase, jinak budeš vyhozen. Děkuji!
     br: 'Não sou um robô',
     tr: 'Ben bir bot değilim',
     es: 'No soy un robot',
+    gl: 'Non son un robot',
     zh: '我不是一个机器人',
     no: 'Jeg er ikke en bot',
     de: 'Ich bin kein Bot',
@@ -1438,6 +1496,7 @@ Prosím, stiskni tlačítko ve stanoveném čase, jinak budeš vyhozen. Děkuji!
     br: 'Apenas o usuário citado pode apertar esse botão.',
     tr: 'Sadece bot olmayan bir aday bu düğmeye basabilir.',
     es: 'Solo el candidato para no ser un roobot puede presionar este botón.',
+    gl: 'Só a persoa candidata a non ser un bot pode presionar este botón.',
     zh: '只有不是机器人的候选人才能按此按钮。',
     no: 'Bare kandidaten som blir testet kan trykke denne knappen.',
     de: 'Nur der User der kein Bot ist, kann diesen Knopf drücken.',
@@ -1474,6 +1533,8 @@ Prosím, stiskni tlačítko ve stanoveném čase, jinak budeš vyhozen. Děkuji!
       'Harika! Artık tüm yeni gelenler, bu sohbete yalnızca normal metin mesajları gönderebilecek.',
     es:
       '¡Genial! Ahora todos los recién llegados solo podrán enviar mensajes ordinarios a este chat.',
+    gl:
+      'De acordo, agora as persoas recén chegadas soamente poden enviar mensaxes ordinarias de texto a este grupo.',
     zh: '很棒！现在所有新手都只能发送文本消息到这个群组。',
     no: 'Supert! Nå kan nykommere bare sende tekstmeldinger i chatten.',
     de:
@@ -1518,6 +1579,8 @@ Prosím, stiskni tlačítko ve stanoveném čase, jinak budeš vyhozen. Děkuji!
       'Harika! Artık tüm yeni kullanıcılar, bu sohbete her türlü içeriği gönderebilecek.',
     es:
       '¡Genial! Ahora todos los recién llegados pueden enviar cualquier tipo de contenido a este chat.',
+    gl:
+      'De acordo, agora todas as persoas recén chegadas poden enviar calquera tipo de contido a este grupo.',
     zh: '很棒！现在所有新手都可以发送任何类型消息到这个群组。',
     no:
       'Supert! Nå kan nykommere sende meldinger med all slags innhold i chatten',
@@ -1553,6 +1616,7 @@ Prosím, stiskni tlačítko ve stanoveném čase, jinak budeš vyhozen. Děkuji!
     br: 'Boa, Agora a mensagem de entrada será apagada.',
     tr: 'Harika! Artık giriş mesajları silinecek.',
     es: '¡Genial! Ahora los mensajes de entrada serán borrados.',
+    gl: 'De acordo, agora as mensaxes de entrada serán borradas.',
     zh: '很棒！现在，加入消息将被删除。',
     no: 'Supert! Meldinger sendt ved ankomst bli slettet.',
     de: 'Mega! Beitrittsnachrichten werden nun gelöscht.',
@@ -1580,6 +1644,7 @@ Prosím, stiskni tlačítko ve stanoveném čase, jinak budeš vyhozen. Děkuji!
     br: 'Boa, Agora a mensagem de entrada não será apagada.',
     tr: 'Harika! Artık giriş mesajları silinmeyecek.',
     es: '¡Genial! Ahora los mensajes de entrada no serán borrados.',
+    gl: 'De acordo, agora as mensaxes de entrada *non* serán borradas.',
     zh: '很棒！现在，加入消息将不被删除。',
     no: 'Supert! Meldinger sendt ved ankomst vil ikke bli slettet.',
     de: 'Spitze! Beitrittsnachrichten werden nicht gelöscht.',
@@ -1615,6 +1680,8 @@ Prosím, stiskni tlačítko ve stanoveném čase, jinak budeš vyhozen. Děkuji!
       'Harika! Artık testi geçen yeni üyeler karşılanacak. Lütfen, bu iletiyi kullanmak istediğiniz tebrik metniyle yanıtlayın ($title ve $username kullanabilirsiniz).',
     es:
       '¡Genial! Ahora los recién llegados que hayan pasado el test no serán saludados. Por favor, responde a este mensaje con el texto de saludo que quieres utilizar (puedes usar $title y $username).',
+    gl:
+      'De acordo, agora as persoas recén chegadas que pasen o filtro captcha serán saudadas. Por favor, responde a esta mensaxe co texto que queres empregar para ese saúdo (podes usar $title, $fullname e $username para personalizar o saúdo).',
     zh:
       '很棒！现在通过测试的新人不会受到欢迎消息。 请回复此消息，并附上您要使用的问候语（您可以使用$title和$username）。',
     no:
@@ -1662,6 +1729,8 @@ Prosím, stiskni tlačítko ve stanoveném čase, jinak budeš vyhozen. Děkuji!
       'Harika! Artık testi geçen yeni üyeler karşılanacak. Lütfen bu mesajı, kullanmak istediğiniz tebrik metni ile yanıtlayın ($title ve $username kullanabilirsiniz). Geçerli tebrik mesajı izlenir.',
     es:
       '¡Genial! Ahora los recién llegados que hayan pasado el test serán saludados. Por favor, responde a este mensaje con el texto de saludo que quieres utilizar (puedes usar $title y $username). El mensaje actual de saludo es:',
+    gl:
+      'De acordo, agora as persoas recén chegadas que pasen o filtro captcha serán saudadas. Por favor, responde a esta mensaxe co texto que queres empregar para ese saúdo (podes usar $title, $fullname e $username para personalizar o saúdo). A continuación podes ler a mensaxe de saúdo actual.',
     zh:
       '很棒！现在通过测试的新人会受到欢迎消息。 请回复此消息，并附上您要使用的问候语（您可以使用$title和$username）。接下来是当前的问候消息。',
     no:
@@ -1703,6 +1772,7 @@ Prosím, stiskni tlačítko ve stanoveném čase, jinak budeš vyhozen. Děkuji!
     tr: 'Harika! Artık testi geçen yeni üyeler karşılanmayacak.',
     es:
       '¡Genial! Ahora los recién llegados que pasen el test no serán saludados.',
+    gl: 'De acordo, agora as persoas recén chegadas que pasen o filtro captcha *non* serán saudadas.',
     zh: '很棒！现在通过测试的新人不会受到欢迎消息。',
     no: 'Supert! Nykommere som har bestått testen vil ikke få en velkomst.',
     de:
@@ -1733,6 +1803,7 @@ Prosím, stiskni tlačítko ve stanoveném čase, jinak budeš vyhozen. Děkuji!
     br: 'Aceito!',
     tr: 'Kabul edildi!',
     es: '¡Aceptado!',
+    gl: 'Pasaches o filtro e estás dentro!',
     zh: '已接受！',
     no: 'Akseptert!',
     de: 'Akzeptiert!',
@@ -1767,6 +1838,8 @@ Prosím, stiskni tlačítko ve stanoveném čase, jinak budeš vyhozen. Děkuji!
       'Harika! Artık yeni gelenler, CAPTCHA testini açıklayan özel mesaj alacaklar. Lütfen bu iletiyi kullanmak istediğiniz CAPTCHA metni ile yanıtlayın ($title, $username, $equation, $fullname ve $seconds kullanabilirsiniz).',
     es:
       'Great! Now newcomers will get custom message explaining the captcha. Please, reply to this message with the captcha text you would like to use (you can use $title, $username, $equation, $fullname and $seconds).',
+    gl:
+      'De acordo, agora as persoas recén chegadas recibirán un texto personalizado explicando o filtro captcha. Por favor, responde a esta mensaxe co texto que queres que se use para esa explicación (podes empregar $title, $username, $equation, $fullname e $seconds).',
     zh:
       '很棒！ 现在新人将获得回答验证码的自定义消息。请用你要使用的验证码文本回复此消息 (你可以使用 $title, $username, $equation, $fullname 和 $seconds)。',
     no:
@@ -1813,6 +1886,8 @@ Prosím, stiskni tlačítko ve stanoveném čase, jinak budeš vyhozen. Děkuji!
       'Harika! Artık yeni gelenler, CAPTCHA testini açıklayan özel mesaj alacaklar. Lütfen bu iletiyi kullanmak istediğiniz CAPTCHA metni ile yanıtlayın ($title, $username, $equation, $fullname ve $seconds kullanabilirsiniz). Geçerli karşılama mesajı izlenir.',
     es:
       'Great! Now newcomers will get custom message explaining the captcha. Please, reply to this message with the captcha text you would like to use (you can use $title, $username, $equation, $fullname and $seconds). The current greeting message follows.',
+    gl:
+      'De acordo, agora as persoas recén chegadas recibirán un texto personalizado explicando o filtro captcha. Por favor, responde a esta mensaxe co texto que queres que se use para esa explicación (podes empregar $title, $username, $equation, $fullname e $seconds). A continuación podes ler o texto actual de explicación.',
     zh:
       '很棒！ 现在新人将获得回答验证码的自定义消息。请用你要使用的验证码文本回复此消息 (你可以使用 $title, $username, $equation, $fullname 和 $seconds)。 当前的问候消息如下。',
     no:
@@ -1854,6 +1929,7 @@ Prosím, stiskni tlačítko ve stanoveném čase, jinak budeš vyhozen. Děkuji!
     br: 'Great! Now newcomers will see the default captcha message',
     tr: 'Harika! Artık yeni gelenler varsayılan CAPTCHA mesajını görecek',
     es: 'Great! Now newcomers will see the default captcha message',
+    gl: 'De acordo, agora as persoas recén chegadas lerán a mensaxe predeterminada do filtro captcha',
     zh: '很棒！现在新人将会看到默认的验证码消息',
     no: 'Great! Now newcomers will see the default captcha message',
     de: 'Großartig! Jetzt erhalten neue User die standard Captcha Nachricht',
@@ -1881,6 +1957,7 @@ Prosím, stiskni tlačítko ve stanoveném čase, jinak budeš vyhozen. Děkuji!
     br: 'Aceito!',
     tr: 'Kabul edildi!',
     es: '¡Aceptado!',
+    gl: 'Admitido!',
     zh: '已接受！',
     no: 'Akseptert!',
     de: 'Akzeptiert!',
@@ -1907,6 +1984,7 @@ Prosím, stiskni tlačítko ve stanoveném čase, jinak budeš vyhozen. Děkuji!
     br: 'Nice! Users will be banned if they do not pass captcha.',
     tr: 'Güzel! Kullanıcılar, CAPTCHA testini geçemezlerse yasaklanırlar',
     es: 'Nice! Users will be banned if they do not pass captcha.',
+    gl: 'De acordo, as persoas que non pasen o filtro captcha serán vetadas.',
     zh: '很好！如果用户未通过验证码，将被禁止。',
     no: 'Nice! Users will be banned if they do not pass captcha.',
     de: 'Toll! User werden gebannt, wenn sie den Captcha Test nicht schaffen.',
@@ -1934,6 +2012,7 @@ Prosím, stiskni tlačítko ve stanoveném čase, jinak budeš vyhozen. Děkuji!
     br: 'Nice! Users will be kicked if they do not pass captcha.',
     tr: 'Güzel! Kullanıcılar, CAPTCHA testini geçemezlerse kovulurlar',
     es: 'Nice! Users will be kicked if they do not pass captcha.',
+    gl: 'De acordo, as persoas que non pasen o filtro captcha serán simplemente expulsadas do grupo (non vetadas).',
     zh: '很好！如果用户未通过验证码，将被踢出。',
     no: 'Nice! Users will be kicked if they do not pass captcha.',
     de:
@@ -1970,6 +2049,8 @@ Prosím, stiskni tlačítko ve stanoveném čase, jinak budeš vyhozen. Děkuji!
       'Harika! Shieldy, CAPTCHA testinden başarısız olan kullanıcıların giriş mesajlarını kaldıracak.',
     es:
       'Great! Shieldy will remove entry messages of the users who failed captcha.',
+    gl:
+      'De acordo, Shieldy borrará calquera mensaxe de entradas das persoas que non pasen o filtro captcha.',
     zh: '很棒！Shieldy将删除验证码失败用户的加入消息。',
     no:
       'Great! Shieldy will remove entry messages of the users who failed captcha.',
@@ -2017,6 +2098,8 @@ Prosím, stiskni tlačítko ve stanoveném čase, jinak budeš vyhozen. Děkuji!
       'Harika! Shieldy, CAPTCHA testinden başarısız olan kullanıcıların giriş mesajlarını kaldırmayacak.',
     es:
       'Great! Shieldy will not remove entry messages of the users who failed captcha.',
+    gl:
+      'De acordo, Shieldy *non* borrará ningunha mensaxe de entradas das persoas que non pasen o filtro captcha.',
     zh: '很棒！Shieldy将不会删除验证码失败用户的加入消息。',
     no:
       'Great! Shieldy will not remove entry messages of the users who failed captcha.',
@@ -2056,6 +2139,7 @@ Prosím, stiskni tlačítko ve stanoveném čase, jinak budeš vyhozen. Děkuji!
     br: 'Great! Shieldy will now use Combot Anti-Spam.',
     tr: 'Harika! Shieldy, artık Combot Anti-Spam kullanacak.',
     es: 'Great! Shieldy will now use Combot Anti-Spam.',
+    gl: 'De acordo, Shieldy usará agora Combot Anti-Spam.',
     zh: 'Great! Shieldy will now use Combot Anti-Spam.',
     no: 'Great! Shieldy will now use Combot Anti-Spam.',
     de: 'Great! Shieldy will now use Combot Anti-Spam.',
@@ -2082,6 +2166,7 @@ Prosím, stiskni tlačítko ve stanoveném čase, jinak budeš vyhozen. Děkuji!
     br: 'Great! Shieldy will not use Combot Anti-Spam now.',
     tr: 'Harika! Shieldy, artık Combot Anti-Spam kullanmayacak.',
     es: 'Great! Shieldy will not use Combot Anti-Spam now.',
+    gl: 'De acordo, Shieldy *non* usará agora Combot Anti-Spam.',
     zh: 'Great! Shieldy will not use Combot Anti-Spam now.',
     no: 'Great! Shieldy will not use Combot Anti-Spam now.',
     de: 'Great! Shieldy will not use Combot Anti-Spam now.',
@@ -2116,6 +2201,8 @@ Prosím, stiskni tlačítko ve stanoveném čase, jinak budeš vyhozen. Děkuji!
       "Great! Shieldy will now kick everybody who enters this chat. Don't forget to turn this mode off when attack is over with /underAttack.",
     es:
       "Great! Shieldy will now kick everybody who enters this chat. Don't forget to turn this mode off when attack is over with /underAttack.",
+    gl:
+      "Modo «pánico»: Shieldy pasa agora a expulsar a calquera persoa nova que entre neste grupo. Non esquezas desactivar este modo cando pase a incidencia con /underAttack.",
     zh:
       "Great! Shieldy will now kick everybody who enters this chat. Don't forget to turn this mode off when attack is over with /underAttack.",
     no:
@@ -2156,6 +2243,7 @@ Prosím, stiskni tlačítko ve stanoveném čase, jinak budeš vyhozen. Děkuji!
     br: 'Great! Shieldy will not kick everybody who enters this chat.',
     tr: 'Great! Shieldy will not kick everybody who enters this chat.',
     es: 'Great! Shieldy will not kick everybody who enters this chat.',
+    gl: 'Modo «pánico» desactivado: Shieldy xa non expulsará a toda persoa nova que entre no grupo.',
     zh: 'Great! Shieldy will not kick everybody who enters this chat.',
     no: 'Great! Shieldy will not kick everybody who enters this chat.',
     de: 'Great! Shieldy will not kick everybody who enters this chat.',
@@ -2181,6 +2269,7 @@ Prosím, stiskni tlačítko ve stanoveném čase, jinak budeš vyhozen. Děkuji!
     br: 'Great! Shieldy will now delete messages that link to telegram channels.',
     tr: 'Great! Shieldy will now delete messages that link to telegram channels.',
     es: 'Great! Shieldy will now delete messages that link to telegram channels.',
+    gl: 'De acordo, Shieldy borrará a partir de agora calquera mensaxe que inclúa ligazóns a outras canles de Telegram.',
     zh: 'Great! Shieldy will now delete messages that link to telegram channels.',
     no: 'Great! Shieldy will now delete messages that link to telegram channels.',
     de: 'Great! Shieldy will now delete messages that link to telegram channels.',
@@ -2206,6 +2295,7 @@ Prosím, stiskni tlačítko ve stanoveném čase, jinak budeš vyhozen. Děkuji!
     br: 'Great! Shieldy will not delete messages that link to telegram channels.',
     tr: 'Great! Shieldy will not delete messages that link to telegram channels.',
     es: 'Great! Shieldy will not delete messages that link to telegram channels.',
+    gl: 'De acordo, Shieldy *non* borrará mensaxes que inclúan ligazóns a outras canles de Telegram.',
     zh: 'Great! Shieldy will not delete messages that link to telegram channels.',
     no: 'Great! Shieldy will not delete messages that link to telegram channels.',
     de: 'Great! Shieldy will not delete messages that link to telegram channels.',

@@ -12,6 +12,7 @@ export enum Language {
   TURKISH = 'tr',
   RUSLISH = 'ruen',
   SPANISH = 'es',
+  GALICIAN = 'gl',
   CHINESE = 'zh',
   NORWEGIAN = 'no',
   GERMAN = 'de',
